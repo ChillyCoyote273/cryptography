@@ -1,21 +1,21 @@
 def shift(c, k):
-    return chr((ord(c) + ord(k) - 2 * ord('A')) % 26 + ord('A'))
+    return chr((ord(c) + ord(k) - 2 * ord('a')) % 26 + ord('a'))
 
 
 def invert_key(key):
-    return ''.join(chr(26 - ord(c) + 2 * ord('A')) for c in key)
+    return ''.join(chr(26 - ord(c) + 2 * ord('a')) for c in key)
 
 
 def encrypt(plain_text, key):
-    plain_text = plain_text.upper()
-    key = key.upper()
+    plain_text = plain_text.lower()
+    key = key.lower()
     key_len = len(key)
     key = key * (len(plain_text) // key_len) + key[:len(plain_text) % key_len]
     return ''.join(shift(c, k) for c, k in zip(plain_text, key))
 
 
 def decrypt(cipher_text, key):
-    return encrypt(cipher_text, invert_key(key.upper()))
+    return encrypt(cipher_text, invert_key(key.lower()))
 
 
 def main():
