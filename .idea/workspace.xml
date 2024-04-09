@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8240a4c9-2900-4731-8605-9a6353848ba5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bad_vinegar_cipher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chi_square_lab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kai_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kai_analysis.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kai_analysis_decrypted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/square_thingy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,6 +25,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ChillyCoyote273&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="367aef4b-fee0-4872-b01c-cd9c0d8c5e72" />
+        <option name="url" value="https://github.com/ChillyCoyote273/cryptography.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,6 +57,7 @@
     "Python.chi_square_lab.executor": "Run",
     "Python.kai_analysis.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.square_thingy.executor": "Run",
     "Python.vinegar_and_breaking_soda.executor": "Run",
     "Python.vinegar_breaking.executor": "Run",
     "Python.vinegar_cipher.executor": "Run",
@@ -58,11 +69,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.chi_square_lab">
+  <component name="RunManager" selected="Python.square_thingy">
     <configuration name="bad_vinegar_cipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cryptography" />
       <option name="ENV_FILES" value="" />
@@ -155,6 +166,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="square_thingy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cryptography" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/square_thingy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="vinegar_and_breaking_soda" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cryptography" />
       <option name="ENV_FILES" value="" />
@@ -178,36 +212,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vinegar_cipher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cryptography" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vinegar_cipher.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.square_thingy" />
         <item itemvalue="Python.chi_square_lab" />
         <item itemvalue="Python.kai_analysis" />
         <item itemvalue="Python.bad_vinegar_cipher" />
         <item itemvalue="Python.vinegar_and_breaking_soda" />
-        <item itemvalue="Python.vinegar_cipher" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +244,8 @@
       <workItem from="1710966582707" duration="3456000" />
       <workItem from="1712076171937" duration="1464000" />
       <workItem from="1712174086330" duration="1459000" />
-      <workItem from="1712257588888" duration="413000" />
+      <workItem from="1712257588888" duration="850000" />
+      <workItem from="1712681832302" duration="1533000" />
     </task>
     <servers />
   </component>
